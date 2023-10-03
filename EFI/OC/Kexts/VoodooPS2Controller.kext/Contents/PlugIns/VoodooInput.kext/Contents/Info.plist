@@ -3,27 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>21G651</string>
+	<string>21G419</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
-	<string>EmeraldSDHC</string>
+	<string>VoodooInput</string>
 	<key>CFBundleIdentifier</key>
-	<string>fish.goldfish64.EmeraldSDHC</string>
+	<string>me.kishorprins.VoodooInput</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>EmeraldSDHC</string>
+	<string>VoodooInput</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.1.1</string>
+	<string>1.1.4</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>0.1.1</string>
+	<string>1.1.4</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -42,54 +42,37 @@
 	<string>13F100</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>EmeraldSDHC</key>
+		<key>Voodoo Input</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>fish.goldfish64.EmeraldSDHC</string>
+			<string>me.kishorprins.VoodooInput</string>
 			<key>IOClass</key>
-			<string>EmeraldSDHC</string>
-			<key>IOPCIClassMatch</key>
-			<string>0x08050000 0x08050100</string>
+			<string>VoodooInput</string>
 			<key>IOProbeScore</key>
-			<integer>1000</integer>
-			<key>IOProviderClass</key>
-			<string>IOPCIDevice</string>
-			<key>Protocol Characteristics</key>
+			<integer>200</integer>
+			<key>IOPropertyMatch</key>
 			<dict>
-				<key>Physical Interconnect</key>
-				<string>Secure Digital</string>
-				<key>Physical Interconnect Location</key>
-				<string>Internal</string>
+				<key>VoodooInputSupported</key>
+				<true/>
 			</dict>
-		</dict>
-		<key>EmeraldSDHCBlockStorageDevice</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>fish.goldfish64.EmeraldSDHC</string>
-			<key>IOClass</key>
-			<string>EmeraldSDHCBlockStorageDevice</string>
 			<key>IOProviderClass</key>
-			<string>EmeraldSDHCSlot</string>
+			<string>IOService</string>
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.6</string>
+	<string>10.11</string>
 	<key>NSHumanReadableCopyright</key>
-	<string></string>
-	<key>OSBundleCompatibleVersion</key>
-	<string>0.1.1</string>
+	<string>Copyright © 2019 Kishor Prins. All rights reserved.</string>
 	<key>OSBundleLibraries</key>
 	<dict>
-		<key>com.apple.iokit.IOPCIFamily</key>
-		<string>1.0</string>
-		<key>com.apple.iokit.IOStorageFamily</key>
-		<string>1.0</string>
+		<key>com.apple.iokit.IOHIDFamily</key>
+		<string>2.0</string>
 		<key>com.apple.kpi.iokit</key>
-		<string>8.0.0</string>
+		<string>14</string>
 		<key>com.apple.kpi.libkern</key>
-		<string>8.0.0</string>
+		<string>14</string>
 		<key>com.apple.kpi.mach</key>
-		<string>8.0.0</string>
+		<string>13.0</string>
 	</dict>
 	<key>OSBundleRequired</key>
 	<string>Root</string>
