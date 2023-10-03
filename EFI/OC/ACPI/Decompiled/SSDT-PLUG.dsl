@@ -1,4 +1,4 @@
-DefinitionBlock ("", "SSDT", 2, "INSP77", "_PLUG", 0x00003000)
+DefinitionBlock ("", "SSDT", 2, "HPROX2", "_PLUG", 0x00001000)
 {
     External (\_PR.PR00, ProcessorObj)
     

@@ -1,4 +1,4 @@
-DefinitionBlock ("", "SSDT", 2, "INSP77", "_PNLF", 0x00000000)
+DefinitionBlock ("", "SSDT", 2, "HPROX2", "_PNLF", 0x00001000)
 {
     External (_SB_.PCI0.GFX0, DeviceObj)
     
