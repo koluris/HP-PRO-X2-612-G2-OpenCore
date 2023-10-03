@@ -9,7 +9,7 @@ So far the build is awesome, cold boot time to Mac in 16 seconds!
 * Graphics: Intel HD615 (Up to 2GB of shared mem) / 1080p 24bit
 * RAM: 4GB LPDDR3 1866MHz
 * Hard Disk: PCI NVMe 128GB SSD
-* Wifi & Bluetooth: Intel Dual Band Wireless-AC 8265
+* Wi-Fi & Bluetooth: Intel Dual Band Wireless-AC 8265
 
 ### Bonus
 * Wi-Fi & Bluetooth work, but with experimental driver and HeliPort app (expect some problems)
