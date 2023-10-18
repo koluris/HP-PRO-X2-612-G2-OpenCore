@@ -34,6 +34,5 @@ So far the build is awesome, cold boot time to Mac in 19 seconds!
 ![Capabilities](https://raw.githubusercontent.com/dkoluris/HP-PRO-X2-612-G2-OpenCore/master/Screenshots/Capabilities.png)
 
 ### Notes
-* Use HeliPort to control Intel Wi-Fi
 * Use the ICC Profile to improve the screen's native colors
 * Use QuickESP, a Status Bar App to mount EFI partitions with ease
